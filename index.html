@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <title>首页</title>
+</head>
+<body>
+    <header></header>
+    <div class="head">
+        <div class="headC">登录</div>
+        <div class="headR">
+            <div class="headRL"></div>
+            <span>|</span>
+            <div class="headRR"></div>
+        </div>
+    </div>
+    <section>
+        <div class="imgbox">
+            <img src="img/logo.png" alt="">
+        </div>
+    </section>
+    <form action="">
+        <div class="min">
+            <div class="putbox">
+                <div class="home">
+                    <img src="img/home.png" alt="">
+                </div>
+                <input type="text" placeholder="请输入账号">
+            </div>
+            <div class="putbox putbox1">
+                <div class="passwd">
+                    <img src="img/passwd.png" alt="">
+                </div>
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <button type="button">登  录</button>
+            <div class="welcome">欢迎申请入驻国药</div>
+            <div class="bottom">工作时间：8:00-20:00</div>
+            <div class="bottom1">国药联系方式：18245689324</div>
+        </div>
+    </form>
+    <div class="zhezhao">
+        <div class="type">为了您操作方便</div>
+        <div class="type1">请您复制链接，在电脑端申请</div>
+        <div class="type2">http//:www.ruzhu.com</div>
+        <button>复制链接</button>
+    </div>
+    <div class="close">
+        <img src="img/close.png" alt="">
+    </div>
+</body>
+<script>
+    $(".welcome").click(function () {
+        $(".zhezhao").css("display","block")
+        $(".close").css("display","block")
+    })
+    $(".close").click(function () {
+        $(".zhezhao").css("display","none")
+        $(".close").css("display","none")
+    })
+    $(".min button").click(function () {
+        location.assign("drug.html")
+    })
+</script>
+</html>

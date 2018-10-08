@@ -1,0 +1,188 @@
+@import url(base.css);
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+}
+header{
+    height: 0.4rem;
+    background: #fff;
+}
+.head{
+    height: 0.84rem;
+    background:#fff;
+}
+.head .headL{
+    width: 0.6rem;
+    height: 0.84rem;
+    background: url("../img/return.png") no-repeat center;
+    background-size: auto 0.46rem;
+    float:left;
+}
+.head .headC{
+    width: auto;
+    height: 0.84rem;
+    margin-left: 2.47rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.84rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.08rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+main{
+    width: 100%;
+    height: 0.85rem;
+    margin-bottom: 0.2rem;
+    background: white;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+    line-height: 0.85rem;
+}
+main ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+main li{
+    width: 0.9rem;
+    float: left;
+    font-size: 0.28rem;
+    font-family: "苹方 中等";
+    color: #333;
+    text-align: center;
+}
+.blue{
+    color: #44afff;
+    border-bottom: 0.04rem solid #44afff;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .top{
+    width: 100%;
+    height: 1.07rem;
+    background: white;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+}
+section .top .title{
+    height: 1.07rem;
+    font-size: 0.28rem;
+    line-height: 1.06rem;
+    font-family: "苹方 粗体";
+    color: #999;
+    border-bottom: 0.01rem solid #f3f3f3;
+}
+section .top .title img{
+    width: 0.26rem;
+    height: 0.26rem;
+    margin-right: 0.12rem;
+}
+section .bottom{
+    width: 100%;
+    height: auto;
+    background: white;
+    overflow: hidden;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+
+}
+section li{
+    margin-top: 0.18rem;
+    float: left;
+    border: 2px solid #fcfcfc;
+}
+section li .drugleft{
+    width: 1.73rem;
+    height: 100%;
+    float: left;
+}
+section li .drugsimg{
+    width: 0.88rem;
+    height: 0.75rem;
+    margin: 0.73rem auto;
+}
+section li .drugsimg img{
+    width: 0.88rem;
+    height: 0.75rem;
+    float: left;
+}
+section li .drugright{
+    width: 5.3rem;
+    float: right;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+section li .drugright .content{
+    box-sizing: border-box;
+    float: left;
+}
+section li .drugright .content .title{
+    font-size: 0.32rem;
+    font-family: "苹方 中等";
+    color: #000;
+    margin-top: 0.22rem;
+}
+section  li .drugright .content .title1{
+    font-size: 0.28rem;
+    line-height: 0.66rem;
+    font-family: "苹方 粗体";
+    color: #999;
+}
+section  li .drugright .content .title1 img{
+    width: 0.2rem;
+    height: 0.26rem;
+    margin-right: 0.12rem;
+}
+section li .drugright .content .id{
+    font-size: 0.24rem;
+    font-family: "苹方 中等";
+    color: #666;
+    margin: 0.14rem 0;
+}
+section li .drugright .content .id span{
+    color: #44afff;
+}
+section li .drugright .content .date{
+    font-size: 0.24rem;
+    font-family: "苹方 中等";
+    color: #666;
+    margin-bottom: 0.26rem;
+}

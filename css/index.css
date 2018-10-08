@@ -1,0 +1,228 @@
+@import url(base.css);
+body,html{
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 0.4rem;
+    background: #fff;
+}
+.head{
+    height: 0.84rem;
+    background:#fff;
+}
+.head .headC{
+    width: auto;
+    height: 0.84rem;
+    margin-left: 3.39rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 中等";
+    line-height: 0.84rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.08rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+section{
+    width: 100%;
+    height: 3.03rem;
+    overflow: hidden;
+}
+section .imgbox{
+    width: 1.6rem;
+    height: 1.37rem;
+    margin: 0.83rem auto;
+}
+section .imgbox img{
+    width: 1.6rem;
+    height: 1.37rem;
+}
+.min{
+    width: 100%;
+    height: auto;
+    padding: 0 0.85rem;
+    box-sizing: border-box;
+
+}
+.min .putbox{
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    overflow: hidden;
+}
+.min .putbox1{
+    margin-top: 0.14rem;
+}
+.min .putbox .home{
+    width: 0.7rem;
+    height: 0.4rem;
+    float: left;
+    margin-top: 0.34rem;
+}
+.min .putbox .home img{
+    width: 0.38rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: 0.07rem;
+}
+.min .putbox .passwd{
+    width: 0.7rem;
+    height: 0.4rem;
+    float: left;
+    margin-top: 0.34rem;
+}
+.min .putbox .passwd img{
+    width: 0.38rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: 0.07rem;
+}
+.min .putbox input{
+    float: right;
+    width: 5.1rem;
+    height: 1rem;
+    border: none;
+}
+input::placeholder {
+    color: #ccc;
+    font-size: 0.28rem;
+    font-family: "苹方";
+}
+.min button{
+    width: 100%;
+    height: 0.9rem;
+    background-image: -webkit-linear-gradient(left,#44aeff,#44deff);
+    background-image: -moz-linear-gradient(left,#44aeff,#44deff);
+    background-image: -ms-linear-gradient(left,#44aeff,#44deff);
+    background-image: -o-linear-gradient(left,#44aeff,#44deff);
+    box-shadow: 0 0 0.01rem 0.02rem rgba(68,175,255,0.5);
+    color: #fff;
+    font-size: 0.36rem;
+    font-family: "苹方 中等";
+    border: none;
+    outline: none;
+    border-radius: 0.45rem;
+    margin-top: 0.66rem;
+}
+.min .welcome{
+    width: 100%;
+    font-size: 0.28rem;
+    font-family: "苹方 中等";
+    color: #2f98cf;
+    text-align: center;
+    margin-top: 0.6rem;
+    letter-spacing: 0.02rem;
+}
+.min .bottom{
+    width: 100%;
+    font-size: 0.24rem;
+    font-family: "苹方 中等";
+    color: #999;
+    text-align: center;
+    margin-top: 2.85rem;
+    letter-spacing: 0.02rem;
+}
+.min .bottom1{
+    width: 100%;
+    font-size: 0.24rem;
+    font-family: "苹方 中等";
+    color: #999;
+    text-align: center;
+    margin-top: 0.16rem;
+    letter-spacing: 0.02rem;
+}
+.zhezhao{
+    width: 5.6rem;
+    height: 3.8rem;
+    background: white;
+    border-radius: 0.12rem;
+    box-shadow: 0 0 30rem 30rem rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 4rem;
+    margin: auto;
+    padding: 0.43rem 0.3rem;
+    display: none;
+}
+.zhezhao .type{
+    color: #000;
+    font-size: 0.36rem;
+    font-family: "苹方";
+    text-align: center;
+    margin-top: 0.3rem;
+    margin-bottom: 0.12rem;
+}
+.zhezhao .type1{
+    color: #000;
+    font-size: 0.36rem;
+    font-family: "苹方";
+    text-align: center;
+    margin-bottom: 0.14rem;
+}
+.zhezhao .type2{
+    color: #2f98cf;
+    font-size: 0.36rem;
+    font-family: "苹方 粗体";
+    text-align: center;
+}
+.zhezhao button{
+    width: 100%;
+    height: 0.9rem;
+    background-image: -webkit-linear-gradient(left,#44aeff,#44deff);
+    background-image: -moz-linear-gradient(left,#44aeff,#44deff);
+    background-image: -ms-linear-gradient(left,#44aeff,#44deff);
+    background-image: -o-linear-gradient(left,#44aeff,#44deff);
+    box-shadow: 0 0 0.01rem 0.02rem rgba(68,175,255,0.5);
+    color: #fff;
+    font-size: 0.36rem;
+    font-family: "苹方 中等";
+    border: none;
+    outline: none;
+    border-radius: 0.45rem;
+    margin-top: 0.68rem;
+}
+.close{
+    width: 0.66rem;
+    height: 0.66rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 8.8rem;
+    margin: auto;
+    display: none;
+}
+.close img{
+    width: 0.66rem;
+    height: 0.66rem;
+}

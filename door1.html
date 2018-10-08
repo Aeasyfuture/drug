@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/door.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <title>门店</title>
+</head>
+<body>
+<header></header>
+<div class="head">
+    <div class="headL"></div>
+    <div class="headC">门店</div>
+    <div class="headR">
+        <div class="headRL"></div>
+        <span>|</span>
+        <div class="headRR"></div>
+    </div>
+</div>
+<main>
+    <ul>
+        <li>进货</li>
+        <li class="blue">销售</li>
+        <li>库存</li>
+        <li>退货</li>
+    </ul>
+</main>
+<section>
+    <div class="top">
+        <div class="title">
+            <img src="img/capsule.png" alt="">
+            三九/999 感冒灵颗粒 10g*9袋
+        </div>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li>
+                <div class="drugleft">
+                    <div class="drugsimg">
+                        <img src="img/pharmacy.png" alt="">
+                    </div>
+                </div>
+                <div class="drugright">
+                    <div class="content">
+                        <div class="title">销售单位：荣华大药房</div>
+                        <div class="title1">
+                            <img src="img/location.png" alt="">
+                            太原市体育路50号
+                        </div>
+                        <div class="id">销售数量：<span>678</span>件</div>
+                        <div class="date">截止日期：<span>2018-09-27</span></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="drugleft">
+                    <div class="drugsimg">
+                        <img src="img/pharmacy.png" alt="">
+                    </div>
+                </div>
+                <div class="drugright">
+                    <div class="content">
+                        <div class="title">销售单位：荣华大药房</div>
+                        <div class="title1">
+                            <img src="img/location.png" alt="">
+                            太原市体育路50号
+                        </div>
+                        <div class="id">销售数量：<span>678</span>件</div>
+                        <div class="date">截止日期：<span>2018-09-27</span></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="drugleft">
+                    <div class="drugsimg">
+                        <img src="img/pharmacy.png" alt="">
+                    </div>
+                </div>
+                <div class="drugright">
+                    <div class="content">
+                        <div class="title">销售单位：荣华大药房</div>
+                        <div class="title1">
+                            <img src="img/location.png" alt="">
+                            太原市体育路50号
+                        </div>
+                        <div class="id">销售数量：<span>678</span>件</div>
+                        <div class="date">截止日期：<span>2018-09-27</span></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="drugleft">
+                    <div class="drugsimg">
+                        <img src="img/pharmacy.png" alt="">
+                    </div>
+                </div>
+                <div class="drugright">
+                    <div class="content">
+                        <div class="title">销售单位：荣华大药房</div>
+                        <div class="title1">
+                            <img src="img/location.png" alt="">
+                            太原市体育路50号
+                        </div>
+                        <div class="id">销售数量：<span>678</span>件</div>
+                        <div class="date">截止日期：<span>2018-09-27</span></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+<script>
+    $(".headL").click(function () {
+        location.assign("totaldata.html")
+    })
+    $(".bottom li").click(function () {
+        location.assign("drughouse1.html")
+    })
+    $("main li:first").click(function () {
+        location.assign("door.html")
+    })
+    $("main li:nth-child(3)").click(function () {
+        location.assign("door2.html")
+    })
+    $("main li:last").click(function () {
+        location.assign("door3.html")
+    })
+</script>
+</html>

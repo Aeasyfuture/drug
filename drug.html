@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/drug.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <title>药品</title>
+</head>
+<body>
+    <header></header>
+    <div class="head">
+        <div class="headC">药品</div>
+        <div class="headR">
+            <div class="headRL"></div>
+            <span>|</span>
+            <div class="headRR"></div>
+        </div>
+    </div>
+    <main>
+        <div class="type">您当前代理的药品数量：
+            <span class="num">6</span>
+            <span class="num1">种</span>
+        </div>
+        <div class="right">
+            <span>|</span>
+            <div class="close">
+                <div class="closeimg">
+                    <img src="img/close1.png" alt="">
+                </div>
+                <div class="tuichu">退出</div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="drugs">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug1.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">三九/999 感冒灵颗粒 10g*9袋</div>
+                    <div class="id">药品ID：<span>GYG20180352</span></div>
+                    <div class="address">生产厂商：华润三九医药股份有限公司</div>
+                </div>
+            </div>
+        </div>
+        <div class="drugs">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug2.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">以岭 莲花清瘟胶囊 0.35g*36粒</div>
+                    <div class="id">药品ID：<span>GYL20180713</span></div>
+                    <div class="address">生产厂商：石家庄以岭药业股份有限公司</div>
+                </div>
+            </div>
+        </div>
+        <div class="drugs drugs1">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug3.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">白云山 板蓝根颗粒 10g*20包</div>
+                    <div class="id">药品ID：<span>GYB20180245</span></div>
+                    <div class="address">生产厂商：广州白云山和记黄埔中药有限公司</div>
+                </div>
+            </div>
+        </div>
+        <div class="drugs">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug4.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">噻托溴铵粉吸入剂（不含药粉吸入器） 18μg*10粒 </div>
+                    <div class="id">药品ID：<span>GYT20180245Y</span></div>
+                    <div class="address">生产厂商：Boehringer Ingelheim Pharma</div>
+                </div>
+            </div>
+        </div>
+        <div class="drugs">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug5.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">感康 复方氨酚烷胺片 12片</div>
+                    <div class="id">药品ID：<span>GYK20180245</span></div>
+                    <div class="address">生产厂商：广州白云山和记黄埔中药有限公司</div>
+                </div>
+            </div>
+        </div>
+        <div class="drugs">
+            <div class="drugleft">
+                <div class="drugsimg">
+                    <img src="img/drug1.png" alt="">
+                </div>
+            </div>
+            <div class="drugright">
+                <div class="content">
+                    <div class="title">三九/999 感冒灵颗粒 10g*9袋</div>
+                    <div class="id">药品ID：<span>GYG20180352</span></div>
+                    <div class="address">生产厂商：华润三九医药股份有限公司</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+$(".drugs").click(function () {
+    location.assign("totaldata.html")
+})
+$(".tuichu").click(function () {
+    location.assign("index.html")
+})
+</script>
+</html>
