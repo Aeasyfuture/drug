@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    position: relative;
+}
+.bg{
+    width: 5.82rem;
+    height: 6.2rem;
+    border-radius: 0.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 3.25rem;
+    z-index: 20;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 0.2rem 30rem rgba(0,0,0,0.4);
+    display: none;
+}
+.bg .jt{
+    width: 5.02rem;
+    height: 4.8rem;
+    padding: 0.7rem 0.4rem;
+    overflow-y: auto;
+}
+.bg .jt .hang{
+    width: 100%;
+    height: 0.63rem;
+}
+.bg .jt .hang .hangL{
+    width: 3.1rem;
+    height: 0.63rem;
+    float: left;
+    font-size: 0.24rem;
+}
+.bg .jt .hang .hangR{
+    width: 1.75rem;
+    height: 0.63rem;
+    float: right;
+    font-size: 0.24rem;
+    color: #ff5502;
+}
+.bg .cha {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../img/close.png") no-repeat center;
+    background-size: contain;
+    position: fixed;
+    top: 10.4rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg1{
+    width: 5.82rem;
+    height: 6.2rem;
+    border-radius: 0.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 3.25rem;
+    z-index: 20;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 0.2rem 30rem rgba(0,0,0,0.4);
+    display: none;
+}
+.bg1 .jt{
+    width: 5.02rem;
+    height: 4.8rem;
+    padding: 0.7rem 0.4rem;
+    overflow-y: auto;
+}
+.bg1 .jt .hang{
+    width: 100%;
+    height: 1.17rem;
+}
+.bg1 .jt .hang .hangL{
+    width: 3.1rem;
+    height: 0.63rem;
+    float: left;
+    line-height: 1.17rem;
+    font-size: 0.3rem;
+}
+.bg1 .jt .hang .hangR{
+    width: 1.75rem;
+    height: 1.17rem;
+    padding: 0.25rem 0;
+    box-sizing: border-box;
+    float: right;
+    line-height: 0.33rem;
+    font-size: 0.22rem;
+    color: #ff5502;
+}
+.bg1 .jt .hang .hangR .hangRS{
+    width: 1.75rem;
+    height: 50%;
+    font-size: 0.22rem;
+    line-height: 0.33rem;
+    color: #6a6a6a;
+}
+.bg1 .jt .hang .hangR .hangRX{
+    width: 1.75rem;
+    height: 50%;
+    font-size: 0.24rem;
+    color: #ff5502;
+}
+.bg1 .cha {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../img/close.png") no-repeat center;
+    background-size: contain;
+    position: fixed;
+    top: 10.4rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 0.42rem;
+    background: #fff;
+}
+.head{
+    height: 0.86rem;
+    background:#fff;
+}
+.head .headC{
+    width: auto;
+    height: 0.86rem;
+    margin-left: 3.4rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.16rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+nav{
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    padding: 0 1.12rem;
+    box-sizing: border-box;
+}
+nav .navL{
+    width: 1.6rem;
+    height: 0.8rem;
+    color: #333333;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-family: 苹方;
+    line-height: 0.8rem;
+    text-align: center;
+    float: left;
+}
+nav .navR{
+    width: 1.6rem;
+    height: 0.8rem;
+    color: #333333;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-family: 苹方;
+    line-height: 0.8rem;
+    text-align: center;
+    float:right;
+}
+section,section1{
+    width: 100%;
+    margin-top: 0.2rem;
+    background: #ffffff;
+    position: absolute;
+    top: 2.2rem;
+    left: 0;
+}
+.section{
+    width: 100%;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 0.2rem 0.4rem 0.04rem;
+}
+.content{
+    width: 100%;
+    height: 1.95rem;
+    border-bottom: 0.03rem solid #f2f2f2;
+}
+.content .top{
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+}
+.content .box{
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    line-height: 0.5rem;
+    color: #bcbcbc;
+}
+.content .box p{
+    width: 50%;
+    height: 0.5rem;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
+    color: #bcbcbc;
+    float: left;
+}
+.content .box p span{
+    color: #44afff;
+}
+
+footer{
+    width: 100%;
+    height: 1.1rem;
+    border-top: 0.02rem solid #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+footer .footLi1{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/tab.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi1 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi2{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/zhegnshu.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi2 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi3{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/jiesuan.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi3 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}

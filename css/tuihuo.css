@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    position: relative;
+}
+header{
+    height: 0.42rem;
+    background: #fff;
+}
+.head{
+    height: 0.86rem;
+    background:#fff;
+}
+.head .headC{
+    width: auto;
+    height: 0.86rem;
+    margin-left: 1.9rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.16rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+section{
+    width: 100%;
+    margin-top: 0.2rem;
+    background: #ffffff;
+}
+section .section{
+    width: 100%;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 0.2rem 0.2rem 0.04rem;
+}
+section .content{
+    width: 100%;
+    height: 1.95rem;
+    border-bottom: 0.03rem solid #f2f2f2;
+}
+section .content .top{
+     width: 100%;
+     height: 0.6rem;
+     line-height: 0.6rem;
+ }
+section .content .top .topL{
+    width: 4.6rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    margin-left: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+}
+section .content .top .topR{
+    width: 1rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+    color: #44afff;
+    text-align: right;
+    float: right;
+}
+section .content p{
+    width: 100%;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    line-height: 0.5rem;
+    color: #bcbcbc;
+}
+footer{
+    width: 100%;
+    height: 1.1rem;
+    border-top: 0.02rem solid #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+footer .footLi1{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/tab.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi1 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi2{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/zhegnshu.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi2 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi3{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/jiesuan.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi3 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
