@@ -192,6 +192,8 @@ section .yao .Right{
     height: 100%;
     float: right;
     margin-left: 0.4rem;
+    overflow: hidden;
+    position: relative;
 }
 section .yao .Right .top{
     width: 4.8rem;
@@ -209,7 +211,7 @@ section .yao .Right p{
 }
 section .yao .Right .tab{
     position: absolute;
-    right: -22px;
+    right: -20px;
     top: 12px;
     width: 90px;
     height: 20px;
