@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+}
+header{
+    height: 0.42rem;
+    background: #fff;
+}
+.head{
+    height: 0.86rem;
+    background:#fff;
+}
+.head .headL{
+    width: 0.6rem;
+    height: 0.86rem;
+    background: url("../img/return.png") no-repeat center;
+    background-size: auto 0.46rem;
+    float:left;
+}
+.head .headC{
+    width: auto;
+    height: 0.86rem;
+    margin-left: 2.47rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.16rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+.main{
+    height: 3.67rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+}
+.main .mainList{
+    height: 0.92rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    box-sizing: border-box;
+    font-size: 0.32rem;
+    font-weight: 500;
+    line-height: 0.92rem;
+}
+.main .mainList .mainListL{
+    width:1.4rem;
+    color:#000;
+    float: left;
+}
+.main .mainList input{
+    width: 3.11rem;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    border: none;
+    height: 0.5rem;
+    float: left;
+    font-size: 0.3rem;
+    font-weight: 500;
+    line-height: 0.5rem;
+    margin-top: 0.23rem;
+    outline: none;
+}
+.main .mainList span{
+    line-height: 0.92rem;
+}
+.con{
+    width: 100%;
+    height: auto;
+    background: #f3f3f3;
+ }
+.con .conU{
+    width: 100%;
+    height: 3.08rem;
+}
+.con .conU .conUU{
+    width: 100%;
+    height: 0.78rem;
+    padding: 0.01rem 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.32rem;
+    font-family: "苹方";
+    color: #000;
+    line-height: 0.78rem;
+}
+.con .conU .conUD{
+    width: 100%;
+    height: 2.3rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+.con .conU .conUD textarea{
+    resize: none;
+    font-size: 0.32rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 2.3rem;
+    outline: none;
+    font-family: 苹方;
+}
+.note{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.3rem;
+    font-family: 苹方;
+    color: #999999;
+}
+button{
+    width: 100%;
+    height: 0.9rem;
+    font-family: 苹方;
+    font-size: 0.32rem;
+    line-height: 0.9rem;
+    text-align: center;
+    color: #fff;
+    background-image: -webkit-linear-gradient(#44afff,#44deff);
+    outline: none;
+    border: none;
+    margin: 1.18rem 0 0.88rem 0;
+}
+.shadow{
+    width: 5.82rem;
+    height: 4.11rem;
+    border-radius: 0.2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 4.31rem;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 0.2rem 30rem rgba(0,0,0,0.4);
+    display: none;
+}
+.shadow .pic{
+    width: 1.62rem;
+    height: 1.32rem;
+    margin: 0.7rem auto 0.3rem;
+    background: url("../img/tankuang.png") no-repeat center;
+    background-size: contain;
+}
+.shadow h1{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.34rem;
+    color: #333;
+    text-align: center;
+    font-weight: normal;
+}
+.shadow p{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    color: #ccc;
+    padding: 0 1rem;
+    text-align: center;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.shadow .cha {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../img/close.png") no-repeat center;
+    background-size: contain;
+    margin-top: 1rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

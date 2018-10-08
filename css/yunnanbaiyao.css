@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+}
+header{
+    height: 0.42rem;
+    background: #fff;
+}
+.head{
+    height: 0.86rem;
+    background:#fff;
+}
+.head .headL{
+    width: 0.6rem;
+    height: 0.86rem;
+    background: url("../img/return.png") no-repeat center;
+    background-size: auto 0.46rem;
+    float:left;
+}
+.head .headC{
+    width: auto;
+    height: 0.86rem;
+    margin-left: 2.47rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.16rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+.con{
+    width: 100%;
+    height: auto;
+    margin-top: 0.2rem;
+}
+.con .conUp{
+    height: 1.37rem;
+    padding: 0.12rem 0.17rem;
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 0.01rem solid #f3f3f3;
+}
+.con .conUp .conUpL{
+    width: 4.68rem;
+    height: 100%;
+    float: left;
+}
+.con .conUp .conUpL .conUpLU{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    font-family: "苹方 粗体";
+    font-weight: bold;
+    color: #999999;
+}
+.con .conUp .conUpL .conUpLU .mid{
+    width: 0.37rem;
+    height: 0.37rem;
+    background: url("../img/yao_09.png") no-repeat center;
+    background-size: 0.37rem;
+    float: left;
+}
+.con .conUp .conUpL .conUpLD{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding-left: 0.35rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    font-family: "苹方";
+    color: #999999;
+}
+.con .conUp button{
+    width: 1.67rem;
+    height: 0.58rem;
+    background-image: -webkit-linear-gradient(#44afff,#44deff);
+    float: right;
+    margin-top: 0.33rem;
+    border-radius: 0.29rem;
+    outline: none;
+    border: none;
+    font-family: "苹方 粗体";
+    font-weight: bold;
+    font-size: 0.28rem;
+    line-height: 0.58rem;
+    text-align: center;
+    color: #fff;
+}
+.con .conDown{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+}
+.con .conDown .main{
+    width: 7.16rem;
+    height: 2.05rem;
+    margin: 0.3rem auto 0;
+    box-shadow: 0 0.04rem 0.007rem 0.05rem rgba(0,0,0,0.01);
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.con .conDown .main .tab{
+    position: absolute;
+    right: -22px;
+    top: 12px;
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.24rem;
+    background-color: #ff5502;
+    color: #fff;
+    transform: rotate(45deg);
+}
+.con .conDown .main .tab1{
+    background-color: #ffce3f;
+}
+.con .conDown .main .mainU{
+    width: 100%;
+    height: 0.67rem;
+    font-size: 0.32rem;
+    color: #333;
+    font-family: "苹方";
+}
+.con .conDown .main .mainC{
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    font-size: 0.28rem;
+    font-family: "苹方";
+    color: #666;
+}
+.con .conDown .main .mainC span{
+    color: #000;
+}
+.con .conDown .main .mainD{
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    font-size: 0.28rem;
+    font-family: "苹方";
+    color: #666;
+}
+.con .conDown .main .mainD span{
+    color: #1fafff;
+}
+.con .conDown .main .mainD .mainD1{
+    color: #ff5502;
+}
+.con .conDown .main .mainD .mainD2{
+    color: #ff2256;
+}
+.con .conDown .main .mainD .mainD3{
+    color: #ffce3f;
+}

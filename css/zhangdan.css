@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    position: relative;
+}
+header{
+    height: 0.42rem;
+    background: #fff;
+}
+.head{
+    height: 0.86rem;
+    background:#fff;
+}
+.head .headC{
+    width: auto;
+    height: 0.86rem;
+    margin-left: 3.4rem;
+    font-size: 0.36rem;
+    color:#000;
+    font-family: "苹方 粗体";
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.head .headR{
+    width: 1.74rem;
+    height: 0.64rem;
+    border-radius: 0.3rem;
+    border:0.01rem solid #eaeaea;
+    float:right;
+    margin-top: 0.16rem;
+    margin-right: 0.14rem;
+    box-sizing: border-box;
+}
+.head .headR .headRL{
+    width: 0.87rem;
+    height: 100%;
+    background: url("../img/sandian_11.png") no-repeat center;
+    background-size: 0.57rem auto;
+    float: left;
+    margin-left: 0.05rem;
+}
+.head .headR span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #cacaca;
+    float: left;
+    margin-top: 0.05rem;
+}
+.head .headR .headRR{
+    float: right;
+    width: 0.7rem;
+    height: 100%;
+    background: url("../img/yuan_03.png") no-repeat center;
+    background-size: 0.47rem auto;
+}
+nav{
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    padding: 0 1.12rem;
+    box-sizing: border-box;
+}
+nav .navL{
+    width: 1.6rem;
+    height: 0.8rem;
+    color: #333333;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-family: 苹方;
+    line-height: 0.8rem;
+    text-align: center;
+    float: left;
+}
+nav .navR{
+    width: 1.6rem;
+    height: 0.8rem;
+    color: #333333;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-family: 苹方;
+    line-height: 0.8rem;
+    text-align: center;
+    float:right;
+}
+.date{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.28rem;
+    box-sizing: border-box;
+    margin: 0.2rem 0;
+    background: #fff;
+    font-size: 0.28rem;
+    color: #000;
+    font-family: 苹方;
+    line-height: 0.88rem;
+}
+.date .dateIcon{
+    width: 0.48rem;
+    height: 0.39rem;
+    float: left;
+    background: url("../img/rili_25.png") no-repeat center;
+    background-size: 0.48rem 0.39rem;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+}
+.date .dateIcon span{
+    color: #999999;
+}
+.yi{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3.44rem;
+    left: 0;
+    z-index: 5;
+}
+.two{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3.44rem;
+    left: 0;
+    z-index: 5;
+}
+.search{
+    width: 100%;
+    height: 1.24rem;
+    background: #fff;
+    overflow: hidden;
+}
+.search .input{
+    width: 6.24rem;
+    height: 0.66rem;
+    border-radius: 0.33rem;
+    border: 0.01rem solid #cccccc;
+    margin: 0.3rem 0.18rem;
+    float: left;
+}
+.search .input .icon{
+    width: 0.32rem;
+    height: 0.35rem;
+    float: left;
+    background: url("../img/dangdajing_48.png") no-repeat center;
+    background-size: contain;
+    margin: 0.15rem 0.3rem;
+}
+.search .input input{
+    float: left;
+    width: 5.24rem;
+    height: 0.4rem;
+    outline: none;
+    border: none;
+    margin-top: 0.15rem;
+    font-size: 0.28rem;
+}
+.search span{
+    width: auto;
+    height: 1.24rem;
+    line-height: 1.24rem;
+    float:left;
+    font-size: 0.3rem;
+    color: #333;
+}
+.con{
+    width: 100%;
+    height: 7.58rem;
+    background: #fff;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+}
+.con .conHead{
+    height: 0.6rem;
+    background: #fff;
+    margin-bottom: 0.26rem;
+}
+.con .conHead li{
+    width: 2rem;
+    height:100%;
+    line-height:0.8rem;
+    text-align: center;
+    font-size: 0.32rem;
+    font-family: "苹方 粗体";
+    font-weight: bold;
+    color: #44afff;
+    float: left;
+}
+.con .conHead .look{
+    width: 1.13rem;
+    height: 0.6rem;
+    line-height:0.8rem;
+    text-align: center;
+    font-size: 0.32rem;
+    font-family: "苹方 粗体";
+    font-weight: bold;
+    color: #44afff;
+    float: right;
+}
+.con .list{
+    height: 0.84rem;
+    line-height: 0.84rem;
+}
+.con .list .list1{
+    color: #1fafff;
+}
+.con .list li{
+    width: 2rem;
+    height:100%;
+    line-height:0.84rem;
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: "苹方 粗体";
+    color: #333;
+    float: left;
+}
+.con .list .look{
+    width: 0.9rem;
+    height: 0.46rem;
+    border-radius: 0.23rem;
+    border: 0.01rem solid #1fafff;
+    margin:0.2rem 0.1rem;
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+    text-align: center;
+    color: #1fafff;
+}
+footer{
+    width: 100%;
+    height: 1.1rem;
+    border-top: 0.02rem solid #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+footer .footLi1{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/tab.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi1 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi2{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/zhegnshu.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi2 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+footer .footLi3{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/jiesuan.png") no-repeat center;
+    background-size: contain;
+    margin-top: 0.1rem;
+}
+footer .footLi3 .word{
+    width: 0.6rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align:center;
+    font-size: 0.22rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
